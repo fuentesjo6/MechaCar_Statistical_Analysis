@@ -1,0 +1,5 @@
+library(dplyr)
+mechacar_mpg <- read.csv("MechaCar_mpg.csv", check.names = F, stringsAsFactor = F)
+head(mechacar_mpg)
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = mechacar_mpg)
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = mechacar_mpg))
