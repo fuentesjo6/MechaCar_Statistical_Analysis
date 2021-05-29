@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-![](https://github.com/fuentesjo6/MechaCar_Statistical_Analysis/blob/main/Resources/linear_regression_output.png)
+![](https://github.com/fuentesjo6/MechaCar_Statistical_Analysis/blob/main/Resources/linear_regrssion.png)
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   - We can see from the above figure that the vehicle length and the ground clearence coefficients have a high level of significance in predicting miles per gallon (MPG). 
