@@ -10,3 +10,6 @@ all_lots <- t.test(suspension_coil$PSI, mu = 1500) # t.test  for all the Lots co
 lot_1 = subset(suspension_coil, Manufacturing_Lot == 'Lot1')
 lot_2 = subset(suspension_coil, Manufacturing_Lot == 'Lot2')
 lot_3 = subset(suspension_coil, Manufacturing_Lot == 'Lot3')
+lot_1_t.test <- t.test(lot_1[['PSI']], Mean = 1500)
+lot_2_t.test <- t.test(lot_2[['PSI']], Mean = 1500)
+lot_3_t.test <- t.test(lot_3[['PSI']], Mean = 1500)
