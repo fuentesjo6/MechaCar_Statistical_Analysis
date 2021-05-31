@@ -8,11 +8,11 @@
   - We can see from the above figure that the vehicle length and the ground clearence coefficients have a high level of significance in predicting miles per gallon (MPG). 
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
-The slope would be considered zero since it is such a small number.
+  - The slope would be considered zero since it is such a small number.
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-The linear regression model of residual standard error: 8.774 which is ok at predicting the MPG for the Mechacar.
+  - The linear regression model of residual standard error: 8.774 which is ok at predicting the MPG for the Mechacar.
 
 
 
